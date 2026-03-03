@@ -36,7 +36,7 @@ namespace CursoCSharp.Fundamentos
 
             CultureInfo ValorEUA = new CultureInfo("en-US"); // Criando a currency de dollar, se quisesse criar outra so utilizar ("language-COUNTRY")
 
-            Console.WriteLine($"Olá, senhor(a) {NomeCliente}, sua compra foi no total de {valorstaxa.ToString("C", ValorEUA)}, após aplicação do imposto o total foi de: {valortotal.ToString("C", ValorEUA)}"); //Uso da formatação monetaria usando a currency criada
+            Console.WriteLine($"Olá, senhor(a) {NomeCliente}, sua compra foi no total de {valorstaxa.ToString("C", ValorEUA)},Status do seu desconto: {desconto}. Após aplicação do imposto o total foi de: {valortotal.ToString("C", ValorEUA)}"); //Uso da formatação monetaria usando a currency criada
             Console.WriteLine("Obrigado por comprar conosco, volte sempre {0}", NomeCliente);
 
             /*correções que o chatgpt fez para deixar codigo mais limpo:

@@ -29,6 +29,16 @@ namespace CursoCSharp
                 {"Atividade de Conclusão de módulo - Fundamentos", AtividadeDeConclusao.Executar},
                 //Estruturas de Controle
                 {"Estrutura de Controle IF - Estruturas de Controle", EstruturaIF.Executar},
+                {"Estrutura de Controle IF ELSE - Estruturas de Controle", EstruturaIfElse.Executar},
+                {"Estrutura de Controle IF ELSE IF - Estruturas de Controle", EstruturaIfElseIf.Executar},
+                {"Estrutura de Controle Switch - Estruturas de Controle", Switch.Executar},
+                {"Estrutura de Controle While - Estruturas de Controle", EstruturaWhile.Executar},
+                {"Estrutura de Controle Do While - Estruturas de Controle", EstruturaDoWhile.Executar},
+                {"Estrutura de Controle For - Estruturas de Controle", EstruturaFor.Executar},
+                {"Estrutura de Controle For Each - Estruturas de Controle", EstruturaForEach.Executar},
+                {"Break - Estruturas de Controle", Break.Executar},
+                {"Continue - Estruturas de Controle", Continue.Executar},
+                {"Atividade de Conclusão de módulo 2 - Fundamentos", AtividadeDeConclusão2.Executar}
             });
 
             central.SelecionarEExecutar();
